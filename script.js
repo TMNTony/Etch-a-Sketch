@@ -1,3 +1,3 @@
-const container = document.querySelector('#container')
+const board = document.querySelector('#board')
 const grid = document.createElement('div')
-container.appendChild(grid);
+board.appendChild(grid);

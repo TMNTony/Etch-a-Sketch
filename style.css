@@ -6,15 +6,22 @@ justify-content: center;
 }
 
 .header {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: space-around;
+    margin-bottom: 20px; 
 }
 
-#container {
+#board {
     width: 500px;
     height: 500px;
     border: 1px solid black;
 }
 
 .footer {
+    align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
