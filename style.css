@@ -14,7 +14,8 @@ justify-content: center;
     margin-bottom: 20px; 
 }
 
-#board {
+.board {
+    display: grid;
     width: 500px;
     height: 500px;
     border: 1px solid black;
